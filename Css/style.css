@@ -1,0 +1,103 @@
+html {
+    box-sizing: border-box;
+    
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background: rgb(8,88,161);
+background: linear-gradient(0deg, rgba(8,88,161,1) 0%, rgba(159,160,190,1) 0%, rgba(229,235,244,1) 100%);
+}
+
+.main{
+    height: 100%;
+}
+
+.main__header{
+    margin: 0;
+    padding-top:40px;
+    padding-left: 60px;
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    grid-area: 1/2/1/3;
+    z-index: 1;
+}
+
+.container {
+    display: grid;
+    height: 100%;
+    grid-template: 100px 700px 240px/ 1fr 700px 700px 1fr;
+}
+
+.header__background {
+    background: rgb(5,46,89);
+    background: linear-gradient(0deg, rgba(5,46,89,1) 0%, rgba(76,125,221,1) 100%);
+    grid-area: 1/1/1/5;
+}
+
+.login__div {
+    grid-area: 1/3/1/4;
+    max-height: 100px;
+    max-width: 700px;
+    z-index: 1;
+}
+
+.login__form{
+    display: flex;
+    align-items: center;
+    color: beige;
+}
+
+.login__button{
+    display: block;
+    justify-content: flex-end;
+    margin-top: 40px;
+    margin-left: 15px;
+    background: #3e62af;
+    color: beige;
+    border-color: #223663;
+    border-radius: 3px;
+    height: 22px;
+}
+
+.login__email{
+    display: block;
+    margin-top: 38px;
+    margin-left: 20px;
+}
+
+.login__password{
+    display: block;
+    margin-top: 38px;
+    margin-left: 20px;
+}
+
+.main__photo{
+    margin-top: 14%;
+    max-height: 427px;
+    max-width: 600px;
+    border-radius: 170px;
+    display: block;
+    float: left;
+    border: 2px solid #7a17fc;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    grid-area: 2/2/2/3;
+}
+
+.register__form {
+    grid-area: 2/3/2/5;
+}
+
+.footer__background {
+    grid-area: 3/1/3/5;
+    background: rgb(144,162,177);
+background: linear-gradient(0deg, rgba(144,162,177,1) 0%, rgba(231,237,249,1) 100%);
+}
