@@ -11,6 +11,12 @@ body {
 background: linear-gradient(0deg, rgba(8,88,161,1) 0%, rgba(159,160,190,1) 0%, rgba(229,235,244,1) 100%);
 }
 
+
+.birthdate__label{
+    font-size: 20px;
+    color: #747272de;
+}
+
 .email__paragraph{
     margin: 0px;
 }
@@ -56,7 +62,7 @@ background: linear-gradient(0deg, rgba(8,88,161,1) 0%, rgba(159,160,190,1) 0%, r
 }
 
 .input__name {
-    width: 280px;
+    width: 267px;
     height: 36px;
     border-radius: 6px;
     font-size: 26px;
@@ -67,15 +73,25 @@ background: linear-gradient(0deg, rgba(8,88,161,1) 0%, rgba(159,160,190,1) 0%, r
 
 input{
     border-width: 1px;
+    padding-left: 1em;
 }
 
-.input__surname {
-    width: 280px;
+.input__birthdate{
+    width: 220px;
     height: 36px;
     border-radius: 6px;
     font-size: 26px;
     border-width: 1px;
-    border-color: rgba(5, 54, 105, 0.4)
+    border-color: rgba(5, 54, 105, 0.4);
+}
+
+.input__surname {
+    width: 267px;
+    height: 36px;
+    border-radius: 6px;
+    font-size: 26px;
+    border-width: 1px;
+    border-color: rgba(5, 54, 105, 0.4);
 }
 
 .input__password{
@@ -133,6 +149,10 @@ input{
     display: block;
     float: left;
     border: 2px solid #7a17fc;
+}
+
+.password__paragraph{
+    margin-bottom: 0px;
 }
 
 .photo {
