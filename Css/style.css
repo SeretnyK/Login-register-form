@@ -17,6 +17,24 @@ background: linear-gradient(0deg, rgba(8,88,161,1) 0%, rgba(159,160,190,1) 0%, r
     color: #747272de;
 }
 
+.birthdate__paragraph {
+    margin-right: 360px;
+    margin-left: 16px;
+}
+
+.button__register{
+    background: rgb(0,119,12);
+    background: linear-gradient(0deg, rgba(0,119,12,1) 0%, rgba(0,119,12,1) 48%, rgba(0,150,10,1) 83%);
+    width: 260px;
+    height: 60px;
+    font-size: 24px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: #0c5802c5;
+    color: beige;
+    margin:16px; 
+}
+
 .email__paragraph{
     margin: 0px;
 }
@@ -31,6 +49,39 @@ background: linear-gradient(0deg, rgba(8,88,161,1) 0%, rgba(159,160,190,1) 0%, r
     padding-left: 60px;
     color: beige;
     font-family: inherit;
+}
+
+.gender__paragraph{
+    font-size: 20px;
+    color: #747272de;
+    margin: 0;
+}
+
+.gender__paragraph__alien{
+    margin: 0;
+    font-size: 20px;
+    color: #000000de;
+}
+
+.gender__paragraph__female{
+    margin: 0;
+    font-size: 20px;
+    color: #000000de;
+}
+
+.gender__paragraph__male{
+    margin: 0;
+    font-size: 20px;
+    color: #000000de;
+}
+
+.gender__fieldset {
+    border: none;
+    padding: none;
+}
+
+.gender__legend {
+    width: 600px;
 }
 
 .header {
@@ -177,11 +228,19 @@ input{
     font-size: 32px;
     font-family: inherit;
     margin-bottom: 10px;
+    margin-top: 12px;
 }
 
 .register__paragraph{
     margin: 0;
     font-size: 20px;
+}
+
+.termsconditions__paragraph {
+    font-size: 12px;
+    width: 260px;
+    margin-left: 16px;
+    margin-right: 100px;
 }
 
 .footer__background {
